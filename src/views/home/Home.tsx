@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import { RouteComponentProps } from 'react-router';
 
 const App: React.FC<RouteComponentProps> = () => {
   return (
     <>
-      <div className="container__wrapper"></div>
+      <div className="container__wrapper">hello world!</div>
     </>
   );
 };

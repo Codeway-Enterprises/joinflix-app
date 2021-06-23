@@ -10,10 +10,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: $l-size;
+  z-index: map-get($z-index, 'error');
   h1 {
     margin-bottom: 0;
   }
   p {
     opacity: 0.6;
+  }
+  .button--primary {
+    background: $yellow;
   }
 }

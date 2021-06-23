@@ -1,1 +1,10 @@
+//settings
+@import './settings/breakpoints';
+@import './settings/colors';
+@import './settings/sizes';
+@import './settings/typography';
+@import './settings/z-index';
+//elements
+@import './elements/base';
+//pages
 @import './pages/error';
