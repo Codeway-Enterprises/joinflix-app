@@ -4,6 +4,7 @@ import { Router, Switch, Route } from 'react-router-dom';
 
 import Home from './views/home/Home';
 import Error from './views/error/Error';
+import Navigation from './components/common/Navigation';
 
 export const history = createBrowserHistory();
 
@@ -11,6 +12,7 @@ export const history = createBrowserHistory();
 const AppRouter = () => (
   <Router history={history}>
     <>
+      <Navigation />
       <main id="main">
         <Switch>
           <Route component={Home} exact={true} path="/home" />
